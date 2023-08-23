@@ -1,0 +1,428 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+}
+
+/* Top Navigation */
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    /* box-shadow: 0px 2px 8px lightgray; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    font-family: "Rosario";
+    display: inline-block;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #727272;
+}
+
+a:hover {
+    color: #378e66;
+}
+
+a.active {
+    color: #378e66;
+    font-weight: bold;
+}
+
+a.logo {
+    float: left;
+    font-family: "Playfair Display";
+    color: black;
+    font-weight: bold;
+    margin-right: -100%;
+    padding-left: 200px;
+}
+
+a.shop-icon {
+    position: absolute;
+    right: 0;
+    padding-right: 200px;
+}
+
+i#img-logo {
+    color: #378e66;
+}
+
+/* Sections */
+
+section {
+    padding: 48px 200px;
+}
+/* Landing Section */
+
+section.landing {
+    height: 550px;
+}
+
+div.heads {
+    float: left;
+    width: 51%;
+}
+
+p.heading {
+    font-family: "Playfair Display";
+    font-size: 74px;
+    font-weight: bold;
+    line-height: 90px;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+p.sub-heading {
+    font-family: "Rosario";
+    font-size: 20px;
+}
+
+a.explore {
+    margin-top: 50px;
+    color: white;
+    background-color: #378e66;
+    padding: 12px 20px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.explore:hover {
+    background-color: #167046;
+}
+
+div.img-container {
+    float: right;
+}
+
+img.img-landing {
+    width: 400px;
+    height: 600px;
+}
+
+/* Feature Section */
+
+section.feature {
+    text-align: center;
+    padding-top: 60px;
+    height: 510px;
+}
+
+h1.heading2 {
+    font-family: "Playfair Display";
+    margin-bottom: 0;
+}
+
+p.sub-heading2 {
+    font-family: "Rosario";
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+table.plants, th.plant, td.plant-text {
+    font-family: "Rosario";
+    margin: auto;
+    padding: 0px 16px;
+}
+
+img.img-plant {
+    width: 195px;
+    height: 195px;
+    border-radius: 10px;
+}
+
+a.view-all {
+    margin-top: 60px;
+    color: white;
+    background-color: #378e66;
+    padding: 12px 20px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a.view-all:hover {
+    background-color: #167046;
+}
+
+/* Assurance Section */
+
+section.assurance {
+    padding-top: 0px;
+    height: 100px;
+}
+
+h1.heading3 {
+    font-weight: normal;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+hr {
+    width: 300px;
+    border: 1px solid grey;
+}
+
+/* Feedback Section */
+
+section.feedback {
+    height: 140px;
+}
+
+table.feedbacks {
+    margin: auto;
+}
+
+th.message, td.name {
+    font-family: "Rosario";
+    font-size: 18px;
+    text-align: left;
+    font-family: "Rosario";
+    padding: 0px 40px 20px 40px;
+    width: 300px;
+}
+
+/* Section Service */
+
+table.services {
+    margin: auto;
+}
+
+th.icon {
+    font-size: 50px;
+}
+
+td.detail {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Playfair Display";
+    padding: 10px 50px;
+    width: 400px;
+}
+
+/* Section Footer */
+
+section.footer {
+    background-color: #efefef;
+}
+
+table.footers {
+    margin: auto;
+}
+
+th.title {
+    font-size: 18px;
+    font-family: "Playfair Display";
+    padding-bottom: 10px;
+}
+
+td.content {
+    font-size: 16px;
+    font-family: "Rosario";
+}
+
+th.title, td.content {
+    vertical-align: top;
+    text-align: left;
+    width: 200px;
+    padding-right: 80px;
+}
+
+#content-c {
+    padding-right: 0px;
+}
+
+a.social-link-a {
+    color: blue;
+}
+
+a.social-link-b {
+    color: rgb(95, 215, 255);
+}
+
+a.social-link-c {
+    color: rgb(138, 58, 185);
+}
+
+a.social-link-a, a.social-link-b, a.social-link-c {
+    font-size: 30px;
+    padding: 16px 5px 0px 0px;
+}
+
+a.sign-up {
+    margin-top: 10px;
+    color: white;
+    background-color: #378e66;
+    padding: 8px 14px;
+    font-family: "Rosario";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a.sign-up:hover {
+    background-color: #167046;
+}
+
+input.email {
+    padding: 8px 14px;
+    font-family: "Rosario";
+    font-size: 16px;
+}
+
+a.link {
+    font-size: 16px;
+    font-family: "Rosario";
+    padding: 0;
+    color: black;
+}
+
+a.link:hover {
+    color: #378e66;
+}
+
+/* Shop Page CSS */
+
+section.status {
+    height: 0px;
+    margin-top: 5px;
+    padding-bottom: 0px;
+}
+
+p.result {
+    font-family: "Rosario";
+    font-size: 20px;
+    color: gray;
+}
+
+nav.side-bar {
+    float: left;
+    width: 15%;
+}
+
+p.filter-title {
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+a.filter {
+    padding: 10px 0;
+    display: block;
+}
+
+img.img-item {
+    height: 200px;
+    width: 200px;
+}
+
+section.list {
+    height: 1100px;
+}
+
+table.collection {
+    float: right;
+    margin-top: 26px;
+}
+
+td.item {
+    padding-left: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+a.item-link {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    color: black;
+    padding: 0;
+}
+
+a.item-link:hover {
+    color: #378e66;
+}
+
+/* Preview Page CSS */
+
+section.nav {
+    font-family: "Rosario";
+    padding-top: 76px;
+    padding-bottom: 0px;
+}
+
+a.back-to-shop {
+    padding: 0px;
+}
+
+section.preview {
+    padding: 40px 200px;
+    height: 400px;
+}
+
+img.img-preview {
+    height: 400px;
+    width: 400px;
+    padding-right: 20px;
+    float: left;
+}
+
+p.info1, p.description-title, p.description {
+    font-family: "Rosario";
+}
+
+p.info1 {
+    color: #167046;
+}
+
+p.description {
+    color: rgb(70, 70, 70);
+}
+
+a.purchase {
+    padding: 8px 20px;
+    border: 2px solid #167046;
+    color: #167046;
+}
+
+a.purchase:hover {
+    color: white;
+    background-color: #167046;
+}
+
+/* Contact Page CSS */
+
+section.contact {
+    height: 400px;
+}
+
+div.heads-contact {
+    float: left;
+    width: 45%;
+}
+
+p.heading-contact {
+    font-family: "Playfair Display";
+    font-size: 32px;
+    margin-top: 140px;
+    margin-bottom: 0;
+}
+
+p.sub-heading-contact {
+    font-family: "Rosario";
+    font-size: 18px;
+}
+
+img.img-contact {
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+}
